@@ -1,12 +1,12 @@
 # Excel-Transformer
 ## Description
 A Microsoft Excel demonstration of the transformer from the "Attention Is All You Need" paper. This Excel document implements a basic two example mini-batch of a the transformer from the aforementioned paper. The document aims to provide a basic numerical example which illustrate the internal workings of a transformer. The transformer contains two layers with each layer containing a two headed encoder and decoder. 
-# Features
+## Features
 -The transformer contains two layers with each layer containing an encoder and decoder. The attention mechanism in every layer utilizes two heads.
 
 -The excel doument outlines the full forward, backward pass and gradient update for a mini-batch containing two examples. 
 
-# Usage / Instructions
+## Usage / Instructions
 -There is two sheets "Transformer EX1" and "Transformer EX2" these contain the forward and backward passes for and individual training examples. The contents of each of the example sheets is cotained within rows 1045-3219 and columns A-VT.
 
 -The "inputs" to the encoder and decoder can be found at the middle bottom of the "DECODER 0" and "ENCODER 0" and are contained within the "Embedding" Layer
@@ -25,12 +25,43 @@ A Microsoft Excel demonstration of the transformer from the "Attention Is All Yo
 
 -Many of the formulas within the document use Excel array / matrix forulas. Sometimes clicking on cells with these formulas in them can take away this formating which may lead to errors causing all cells with formulas dependent on that cell to throw an error which will be denoted by "#########" if this occurs locate the cell (trace back to where the formulas are no longer "########") and then when inside the cell hit "ctrl+shift+enter" this will cause excel to treat it as an array operation again.
 
-# Contributions
-# License
+## Contributions
+
+As the sole creator of this educational material on the underlying mechanisms within transformers, my goal is to provide clear, accurate, and accessible explanations that can benefit learners at all levels. While I am not seeking direct contributions to the material at this time, your insights, especially in identifying and reporting errors, are invaluable for maintaining the quality and accuracy of this resource.
+
+### How You Can Contribute
+
+Your experiences and vigilance in spotting inaccuracies play a crucial role in ensuring the integrity of this educational content. Here's how you can contribute:
+
+1. **Error Reporting with the Issue Template**: To facilitate the error reporting process, I've created a custom issue template specifically for this purpose. When you [open a new issue](https://github.com/yourusername/yourrepository/issues/new) to report an error, please use this template. It is designed to guide you through providing all the necessary details about the error, including the context, how it can be reproduced, and any suggestions you have for correction. This structured approach helps in addressing the errors more efficiently and effectively.
+
+2. **Feedback on Content and Questions**: Although the issue template is primarily for error reporting, your feedback on content and any questions you have are still very welcome. For these types of contributions, please provide as much detail as possible in the description of your issue to help us understand your perspective or query.
+
+### Guidelines for Submitting Issues
+
+- **Search Before Posting**: To avoid duplicate error reports, please search the existing issues to see if the error has already been identified.
+- **Be Specific and Detailed**: When using the issue template for error reporting, fill out each section thoroughly. Clear descriptions and steps to reproduce the error are especially helpful.
+- **Use a Constructive Tone**: We aim to foster a positive and productive learning environment. Constructive, respectful feedback and discussions are essential to this goal.
+
+### What to Expect After Submitting an Issue
+
+I am dedicated to reviewing all issues and will respond as promptly as my schedule allows. For error reports:
+- I may ask for further clarification or additional information.
+- I will provide updates on the resolution process and inform you when the error has been corrected.
+
+### Your Contribution is Valued
+
+Every error report contributes significantly to the accuracy and reliability of this educational material. I am thankful for your contributions and for your help in improving the resource for everyone interested in the transformative power of transformers.
+
+For general inquiries or further discussion, feel free to reach out through [preferred communication channel, e.g., GitHub Discussions, email].
+
+Thank you for your vigilance, assistance, and contribution to a better learning experience for all!
+
+## License
 -This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 -The layer normilization portions of this work are derived from "Understanding the backward pass through Batch Normalization Layer" by Dean Attali, licensed under the MIT License (MIT). Copyright (c) 2016 Dean Attali.
-# Acknowledgments
+## Acknowledgments
 -I'm thankful to Dean Attali for his clear and practical explanation of Batch Normalization(Which I then adapted into layer normilization), particularly through his discussion on "Understanding the backward pass through Batch Normalization Layer." His work has been a valuable resource in understanding complex machine learning concepts and implementing them in this project. Frederik's contributions, along with the CS231n course material, have significantly enhanced my learning journey in machine learning. Check out more of his insights on [his blog](https://kratzert.github.io/).
 
 -Special thanks to Jay Alammar for his enlightening work, particularly "The Illustrated Transformer," which has greatly informed this project. His clear visual explanations of complex machine learning concepts have been invaluable. Check out his insights on his blog (https://jalammar.github.io/illustrated-transformer/) and [YouTube channel] (https://www.youtube.com/@arp_ai) for more transformative content.
