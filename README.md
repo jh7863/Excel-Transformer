@@ -33,7 +33,7 @@ As the sole creator of this educational material on the underlying mechanisms wi
 
 Your experiences and vigilance in spotting inaccuracies play a crucial role in ensuring the integrity of this educational content. Here's how you can contribute:
 
-1. **Error Reporting with the Issue Template**: To facilitate the error reporting process, I've created a custom issue template specifically for this purpose. When you [open a new issue](https://github.com/yourusername/yourrepository/issues/new) to report an error, please use this template. It is designed to guide you through providing all the necessary details about the error, including the context, how it can be reproduced, and any suggestions you have for correction. This structured approach helps in addressing the errors more efficiently and effectively.
+1. **Error Reporting with the Issue Template**: To facilitate the error reporting process, I've created a custom issue template specifically for this purpose. When you [open a new issue](https://github.com/jh7863/Excel-Transformer/issues/new) to report an error, please use this template. It is designed to guide you through providing all the necessary details about the error, including the context, how it can be reproduced, and any suggestions you have for correction. This structured approach helps in addressing the errors more efficiently and effectively.
 
 2. **Feedback on Content and Questions**: Although the issue template is primarily for error reporting, your feedback on content and any questions you have are still very welcome. For these types of contributions, please provide as much detail as possible in the description of your issue to help us understand your perspective or query.
 
