@@ -27,11 +27,20 @@ A Microsoft Excel demonstration of the transformer from the "Attention Is All Yo
 
 # Contributions
 # License
-# Acknowledgments
--Portions of this work are derived from "Understanding the backward pass through Batch Normalization Layer" by Dean Attali, licensed under the MIT License (MIT). Copyright (c) 2016 Dean Attali.
+-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-1-https://jalammar.github.io/illustrated-transformer/
-2-https://www.youtube.com/watch?v=zxQyTK8quyY&t=1948s
-3-Attention is all you need
+-The layer normilization portions of this work are derived from "Understanding the backward pass through Batch Normalization Layer" by Dean Attali, licensed under the MIT License (MIT). Copyright (c) 2016 Dean Attali.
+# Acknowledgments
+-I'm thankful to Dean Attali for his clear and practical explanation of Batch Normalization(Which I then adapted into layer normilization), particularly through his discussion on "Understanding the backward pass through Batch Normalization Layer." His work has been a valuable resource in understanding complex machine learning concepts and implementing them in this project. Frederik's contributions, along with the CS231n course material, have significantly enhanced my learning journey in machine learning. Check out more of his insights on [his blog](https://kratzert.github.io/).
+
+-Special thanks to Jay Alammar for his enlightening work, particularly "The Illustrated Transformer," which has greatly informed this project. His clear visual explanations of complex machine learning concepts have been invaluable. Check out his insights on his blog (https://jalammar.github.io/illustrated-transformer/) and [YouTube channel] (https://www.youtube.com/@arp_ai) for more transformative content.
+
+-I would like to express my gratitude to Josh Starmer for their exceptional series of videos on deep learning, especially their insights on transformers and cross entropy loss which have significantly influenced this project. Their expertise and clear explanations have been invaluable. For anyone interested in deepening their understanding of deep learning or statistics, I highly recommend exploring their content at https://www.youtube.com/@statquest.
+
+-The concepts presented here are based on the concepts outlined by the seminal paper "Attention Is All You Need" by Ashish Vaswani et al. This work has been foundational in understanding the Transformer model's architecture and its applications in natural language processing. For a comprehensive dive into these groundbreaking ideas, the original paper is accessible at [https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762). I am grateful for the authors’ contributions to the field.
+
+-This project benefited from the use of OpenAI's ChatGPT, which provided assistance with gaining an undertanding of the transformers underlying architecture. The AI's input was invaluable for refining ideas and enhancing the quality of the work presented.
+
+
 
 
