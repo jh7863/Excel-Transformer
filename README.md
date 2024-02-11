@@ -28,6 +28,8 @@ A Microsoft Excel demonstration of the transformer from the "Attention Is All Yo
 # Contributions
 # License
 # Acknowledgments
+-Portions of this work are derived from "Understanding the backward pass through Batch Normalization Layer" by Dean Attali, licensed under the MIT License (MIT). Copyright (c) 2016 Dean Attali.
+
 1-https://jalammar.github.io/illustrated-transformer/
 2-https://www.youtube.com/watch?v=zxQyTK8quyY&t=1948s
 3-Attention is all you need
