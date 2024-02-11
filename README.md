@@ -1,6 +1,6 @@
 # Excel-Transformer
 # Description
-A Microsoft Excel demonstration of the transformer from the "Attention Is All You Need" paper. This Excel document implements a basic two example mini-batch of a the transformer from the aforementioned paper. The document aims to provide a basic numerical example which illustrate the internal workings of a transformer. The transformer contains two layers with each layer containing an encoder and decoder. The example utilizes two heads as well.
+A Microsoft Excel demonstration of the transformer from the "Attention Is All You Need" paper. This Excel document implements a basic two example mini-batch of a the transformer from the aforementioned paper. The document aims to provide a basic numerical example which illustrate the internal workings of a transformer. The transformer contains two layers with each layer containing a two headed encoder and decoder. 
 # Features
 -The transformer contains two layers with each layer containing an encoder and decoder. The attention mechanism in every layer utilizes two heads.
 
