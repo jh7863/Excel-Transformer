@@ -26,4 +26,10 @@ A Microsoft Excel demonstration of the transformer from the "Attention Is All Yo
 -Many of the formulas within the document use Excel array / matrix forulas. Sometimes clicking on cells with these formulas in them can take away this formating which may lead to errors causing all cells with formulas dependent on that cell to throw an error which will be denoted by "#########" if this occurs locate the cell (trace back to where the formulas are no longer "########") and then when inside the cell hit "ctrl+shift+enter" this will cause excel to treat it as an array operation again.
 
 # Contributions
+# License
+# Acknowledgments
+1-https://jalammar.github.io/illustrated-transformer/
+2-https://www.youtube.com/watch?v=zxQyTK8quyY&t=1948s
+3-Attention is all you need
+
 
