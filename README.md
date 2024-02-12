@@ -58,8 +58,11 @@ For general inquiries or further discussion, feel free to reach out through [pre
 Thank you for your vigilance, assistance, and contribution to a better learning experience for all!
 
 ## License
--This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
--The layer normalization portions of this work are derived from "Understanding the backward pass through Batch Normalization Layer" by Dean Attali, licensed under the MIT License (MIT). Copyright (c) 2016 Dean Attali.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The layer normalization portions of this work are derived from "Understanding the backward pass through Batch Normalization Layer" by Dean Attali, licensed under the MIT License (MIT). Copyright (c) 2016 Dean Attali.
+
 
 ## Contact
 If you have any questions, feedback, or would like to engage further regarding the Excel-Transformer project, please feel free to reach out to me:
