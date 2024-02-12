@@ -17,8 +17,9 @@ A Microsoft Excel demonstration of the transformer from the "Attention Is All Yo
 
 - **SA, SB, SC**: The softmaxed version of the inputs A, B, and C, respectively. 
 
-- **WR**: Weighted Representation 
+- **WR**: Weighted Representation
 
+- **Missing terms**: If there are any other terms that you feel should be added, please contact me.
 
 ## Usage / Instructions
 - There are two sheets: "Transformer EX1" and "Transformer EX2". These contain the forward and backward passes for individual training examples. The contents of each of the example sheets is contained within rows 1045-3219 and columns A-VT.
