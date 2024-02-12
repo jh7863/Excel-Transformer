@@ -7,6 +7,19 @@ A Microsoft Excel demonstration of the transformer from the "Attention Is All Yo
 - The transformer contains two layers with each layer containing an encoder and decoder. The attention mechanism in every layer utilizes two heads.
 - The excel doument outlines the full forward, backward pass and gradient update for a mini-batch containing two examples.
 
+## Glossary
+
+- **SS**: Similiratiy Score - A metric used to quantify the similarity between two entities or vectors.
+  
+- **SSS**: Scaled Similarity Score - A version of the similarity score that has been scaled or normalized to a specific range or magnitude.
+
+- **A, B, C**: Used to represent the position of input to the softmax function. These variables typically refer to different options or choices that are being evaluated.
+
+- **SA, SB, SC**: The softmaxed version of the inputs A, B, and C, respectively. Softmax is a mathematical function that converts a vector of arbitrary values into a probability distribution.
+
+- **WR**: Weighted Representation - A representation of data where each component or feature is weighted differently based on its importance or relevance.
+
+
 ## Usage / Instructions
 - There are two sheets: "Transformer EX1" and "Transformer EX2". These contain the forward and backward passes for individual training examples. The contents of each of the example sheets is contained within rows 1045-3219 and columns A-VT.
 - The inputs to the encoder and decoder can be found at the middle bottom of the "DECODER 0" and "ENCODER 0" and are contained within the "Embedding" Layer.
