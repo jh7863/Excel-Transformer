@@ -22,7 +22,7 @@ A Microsoft Excel demonstration of the transformer from the "Attention Is All Yo
 - **Missing terms**: If there are any other terms that you feel should be added, please contact me.
 
 ## Usage / Instructions
-- There are two sheets: "Transformer EX1" and "Transformer EX2". These contain the forward and backward passes for individual training examples. The contents of each of the example sheets is contained within rows 1045-3219 and columns A-VT.
+- There are two sheets: "Transformer EX1" and "Transformer EX2". These contain the forward and backward passes for individual training examples. The contents of each of the example sheets is contained within rows 1045-3219 and columns A-VT. WHEN NAVIGATING AROUND THE EXCEL FILE, ZOOM OUT AS FAR AS POSSIBLE. THIS WILL MAKE THE STRUCTURE OF THE DOCUMENT CLEARER. AFTER FINDING THE SECTION YOU ARE INTERESTED IN, YOU CAN THEN ZOOM IN TO FURTHER EXPLORE IT.
 - The inputs to the encoder and decoder can be found at the middle bottom of the "DECODER 0" and "ENCODER 0" and are contained within the "Embedding" Layer.
 - The output and cost calculation is centered and above "DECODER 1".
 - The "PARAMETER UPDATES" sheet contains the calculations involved in performing a gradient step using the ADAM optimizer for all the parameters within the example. This section does not use the learning rate scheduler that was used in the original "Attention is All You Need" paper.
