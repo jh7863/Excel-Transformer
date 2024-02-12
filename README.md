@@ -9,15 +9,15 @@ A Microsoft Excel demonstration of the transformer from the "Attention Is All Yo
 
 ## Glossary
 
-- **SS**: Similiratiy Score - A metric used to quantify the similarity between two entities or vectors.
+- **SS**: Similiratiy Score
   
-- **SSS**: Scaled Similarity Score - A version of the similarity score that has been scaled or normalized to a specific range or magnitude.
+- **SSS**: Scaled Similarity Score
 
-- **A, B, C**: Used to represent the position of input to the softmax function. These variables typically refer to different options or choices that are being evaluated.
+- **A, B, C**: Used to represent the position of input to the softmax function. 
 
-- **SA, SB, SC**: The softmaxed version of the inputs A, B, and C, respectively. Softmax is a mathematical function that converts a vector of arbitrary values into a probability distribution.
+- **SA, SB, SC**: The softmaxed version of the inputs A, B, and C, respectively. 
 
-- **WR**: Weighted Representation - A representation of data where each component or feature is weighted differently based on its importance or relevance.
+- **WR**: Weighted Representation 
 
 
 ## Usage / Instructions
